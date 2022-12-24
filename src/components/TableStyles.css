@@ -1,6 +1,7 @@
-h1 {
+.head {
     width: 100%;
     text-align: center;
+    margin-top: 9%;
     font-size: 40px;
     color: #333;
 }
