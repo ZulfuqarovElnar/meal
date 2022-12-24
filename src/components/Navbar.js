@@ -27,7 +27,7 @@ const [color, setColor] = useState(false)
                 <Link to='/'>Home</Link>
             </li>
             <li>
-                <Link to='/pricing'>Pricing</Link>
+                <Link to='/meal'>Meals</Link>
             </li>
             <li>
                 <Link to='/training'>Training</Link>

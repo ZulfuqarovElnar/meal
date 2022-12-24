@@ -10,7 +10,7 @@ export default function App() {
   return (
     
     <MDBRow className='row row-cols-1 row-cols-md-3  g-4'>
-      <h1> Meal Recipes </h1>
+      <h1 className='head'> Meal Recipes </h1>
       <MDBCol >
         <MDBCard>
           <div className='image'>
