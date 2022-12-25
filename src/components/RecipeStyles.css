@@ -1,0 +1,37 @@
+.row1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.image-1{
+    position: relative;
+    width: 80%;
+    text-align: center;
+    flex: 1;
+    max-width: 350px;
+    height: 380px;
+    margin: 20px;
+}
+.images-1 img {
+    opacity: 0.8;
+    position: relative;
+    vertical-align: top;
+    transition: 0.6s;
+    transition-property: opacity;
+}
+.image-1:hover img {
+    opacity: 1;
+}
+
+.btn-1{
+    padding: 5px 15px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+
+
+
