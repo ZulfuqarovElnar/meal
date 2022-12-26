@@ -1,15 +1,14 @@
 import React from 'react';
 import Recipe  from '../components/Recipe';
-
-import Navbar from '../components/Navbar';
+import Dry from '../components/species/Dry';
 
 
 
 const Home = () => {
     return (
         <div>
-            <Navbar />
             <Recipe />
+            <Dry  />
         </div>
     )
 }
