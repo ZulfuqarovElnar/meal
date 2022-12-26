@@ -5,6 +5,7 @@ import {
   MDBCol
 } from 'mdb-react-ui-kit';
 import './TableStyles.css';
+import { Link } from 'react-router-dom';
 
 export default function App() {
   return (
@@ -14,8 +15,8 @@ export default function App() {
       <MDBCol >
         <MDBCard>
           <div className='image'>
-          < img style={{ width: '23rem',height: '20rem'}} src='assets/sulu.webp'
-            alt='...' />
+          <Link to={'/recipe'}>< img style={{ width: '23rem',height: '20rem'}} src='assets/sulu.webp'
+            alt='...' /></Link>
             <div className='details'>
               <h2>Watery <span>Meals</span></h2>
             </div>
