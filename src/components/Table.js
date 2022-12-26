@@ -16,21 +16,23 @@ export default function App() {
         <MDBCard>
           <div className='image'>
           <Link to={'/recipe'}>< img style={{ width: '23rem',height: '20rem'}} src='assets/sulu.webp'
-            alt='...' /></Link>
+            alt='...' />
             <div className='details'>
               <h2>Watery <span>Meals</span></h2>
             </div>
+            </Link>
           </div>
         </MDBCard>
       </MDBCol>
       <MDBCol >
         <MDBCard className='h-100'>
           <div className='image'>
-          < img style={{ width: '23rem',height: '20rem'}} src='assets/quru.jpg'
+          <Link to={'/dry'}>< img style={{ width: '23rem',height: '20rem'}} src='assets/quru.jpg'
             alt='...' />
             <div className='details'>
               <h2>Dry <span>Meals</span></h2>
-            </div>
+            </div>    
+            </Link>
           </div>
         </MDBCard>
       </MDBCol>
@@ -48,7 +50,7 @@ export default function App() {
       <MDBCol >
         <MDBCard className='h-100'>
           <div className='image'>
-          < img style={{ width: '23rem',height: '20rem'}} src='assets/salad.jpg'
+          <img style={{ width: '23rem',height: '20rem'}} src='assets/salad.jpg'
             alt='...' />
             <div className='details'>
               <h2>Salads <span></span></h2>
