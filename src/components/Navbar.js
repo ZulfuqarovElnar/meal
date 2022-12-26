@@ -30,7 +30,7 @@ const [color, setColor] = useState(false)
                 <Link to='/meal'>Meals</Link>
             </li>
             <li>
-                <Link to='/training'>Training</Link>
+                <Link to='/recipe'>Recipes</Link>
             </li>
             <li>
                 <Link to='/contact'>Contact</Link>
